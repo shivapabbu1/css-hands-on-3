@@ -1,0 +1,170 @@
+body {
+    background-color: grey;
+
+}
+#container1 {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+#banner {
+    width: 550px;
+    border: 10px solid red;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(132, 53, 53);
+    box-shadow: 10px 10px 5px purple;
+    text-shadow: 2px 2px 2px purple;
+
+}
+
+#main {
+    border: 10px solid darkgreen;
+    padding: 5px;
+}
+#container2 {
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+#box1 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid green;
+    border-radius: 25px;
+    float: left;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(3, 3, 59);
+    box-shadow: 10px 10px 5px purple;
+    text-shadow: 2px 2px 2px purple ;
+    
+}
+#box2 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid green;
+    border-radius: 25px;
+    float: right;
+}
+#img1 {
+    margin: 50px 25px;
+    height: 200px;
+    width: 250px;
+    border: 1px solid rgb(3, 3, 59);
+    box-shadow: 2px 2px 2px blue, -2px -2px 2px blue; 
+
+}
+
+#container3 {
+    height: 400px;
+    margin-right: 50px;
+}
+#box3 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid green;
+    border-radius: 25px;
+    float: left;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(3, 3, 59);
+    text-align: left;
+    box-shadow: 10px 10px 5px purple;
+    text-shadow: 2px 2px 2px purple ;
+    
+}
+#box4 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid green;
+    border-radius: 25px;
+    float: right;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(3, 3, 59);
+    box-shadow: 10px 10px 5px purple;
+    text-shadow: 2px 2px 2px purple ;
+    font-weight: bold;
+
+}
+#ratebox {
+    width: 120px;
+}
+
+#submit {
+    border: 0px solid blue;
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+#submit:hover {
+    color: white;
+    background-color: rgb(201, 41, 41);
+}
+
+/* last items */
+#main2 {
+    border: 10px solid purple;
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color:green;
+}
+
+#container4 {
+    display: flex;
+}
+.two-box {
+    border: 5px solid darkgreen;
+    background-color: yellowgreen;
+    width: 50%;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#long-box {
+    width: 101%;
+    border: 5px solid darkgreen;
+    border-right: 1px;
+    height: 290px;
+    background-color: yellowgreen;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+
+/* fixed box */
+
+#fix-box {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    border: 10px solid rgb(97, 97, 4);
+    background-color: rgb(187, 187, 57);
+    color: rgb(97, 97, 4);
+    font-style: italic;
+    padding-right: 20px;
+    padding-left: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom:100px;
+    left: 400px;
+}
